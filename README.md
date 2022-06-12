@@ -6,4 +6,4 @@
 - external fonts
 
 
-See the page <a href="https://przewnic.github.io/sign-up-form/">here</a>.
+See the page <a href="https://przewnic.github.io/Sign-up-form/">here</a>.
