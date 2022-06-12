@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <main>
+        <div class="container header-container">
+            <div class="header">
+                <img src="./img/logo_moster.png" height="100px" alt="moster-logo">
+                <h1>Flower store</h1>
+            </div>
+        </div>
+        <div class="container form-container">
+            <div class="item">
+                <p>Monstera deliciosa</p>
+                <p> the Swiss cheese plant or split-leaf philodendron is a species 
+                    of flowering plant native to tropical forests of southern Mexico,
+                     south to Panama. It is very widely grown
+                        in temperate zones as a houseplant.</p>
+                <p>- From Wikipedia</p>
+            </div>
+            <div class="form">
+                <form action="" method="post">
+                    <div class="user-input">
+                        <div class="form-input">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+                        <div class="form-input">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+                        <div class="form-input">
+                            <label for="email_address">Email</label>
+                            <input type="email" id="email_address" name="email">
+                        </div>
+                        <div class="form-input">
+                            <label for="phone_nr">Phone number</label>
+                            <input type="tel" id="phone_nr" name="phone_nr" pattern="[0-9]{9}">
+                        </div>
+                        <div class="form-input">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="form-input"> 
+                            <label for="password_copy">Confirm Password</label>
+                            <input type="password" id="password_copy" name="password_copy">
+                        </div>
+                    </div>
+                    <button class="item" type="submit">Create Account</button>
+                </form>
+            </div>
+            <div class="item">
+                <p>Already have account? <a href="">Log in</a>!</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
