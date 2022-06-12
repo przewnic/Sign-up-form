@@ -1,6 +1,6 @@
 # Sign-up Form
 
-## Created page with sign-up form, projects uses
+## Created page with sign-up form, project uses
 - flexbox
-- form tags
+- form html tags
 - external fonts
